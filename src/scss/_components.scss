@@ -1,0 +1,196 @@
+header {
+    background:url('/assets/inanc-avadit-571215-unsplash (1).jpg');
+    background-size: cover;
+    overflow: auto;
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+    position: relative;
+}
+
+a {
+    text-decoration: none;
+    transition: 0.3s;
+    color:$white;
+    &:hover {
+        text-decoration: underline;
+    }
+}
+footer {
+    background-color: $purple;
+}
+figure {
+    margin:0 !important;
+}
+.btn {
+    border: 2px solid $white;
+    text-align: center;
+    padding:15px 30px;
+    display:inline-block;
+    font-size:12pt !important;
+    font-family: 'Proxima Nova';
+
+}
+.purple {
+    background-color: $purple;
+    color:$white;
+}
+p {
+    text-align: center;
+    @include respond-to($md) {
+        text-align: left;
+    }
+}
+.center-col {
+    max-width:1150px;
+    margin:0 auto;
+    text-align: center;
+}
+.icon_box {
+    position: relative;
+    width:100%;
+    margin-top:50px;
+    @include respond-to($md) {
+        margin-top:30px;
+    }
+    .icon_container {
+        position: absolute;
+        top:-40px;
+        left:50%;
+        margin-left: -37px;
+        border-radius:50%;
+        background:$purple;
+        padding:20px;
+        .icon {
+            min-height:100%;
+            min-width: 100%;
+        }
+    }
+}
+.center_text {
+    text-align: center;
+    @include respond-to($md) {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        text-align: left;
+    }
+}
+.center_text_item {
+    width:90%;
+    margin:0;
+    @include respond-to($md) {
+    width:60%;
+    margin: 0 auto;
+    }
+}
+#intro_text {
+    font-size:2em;
+    margin-top:10%;
+    margin-bottom: 10%;
+    @include respond-to($md) {
+        max-width:60%;
+    }
+    @include respond-to($lg) {
+        max-width:50%;
+    }
+}
+#grad {
+    background-image: linear-gradient(transparent, $black);
+    text-align: center;
+    width:100%;
+    position: absolute;
+    bottom: 0;
+    margin: 0;
+    margin-left:-30px;
+    #down_link {
+        font-size:1em !important;
+        @include respond-to($lg) {
+            font-size:1.5em !important;
+        }
+        i {
+            border-radius:50%;
+            padding:2px 5px;
+            border: 2px solid $white;
+            margin-bottom:10px;
+            @include respond-to($lg) {
+                padding: 5px 10px !important;
+            }
+        }
+    }
+    @include respond-to($sm) {
+        margin-left:-40px;
+    }
+}
+#social_media {
+    display:block;
+    margin-bottom: 15px;
+    img {
+        width:25px;
+        &:last-child {
+            margin-left: 10px;
+        }
+    
+    }
+    @include respond-to($md) {
+        display:flex;
+    }
+}
+.search-form {
+    .search-container {
+        border:1px solid $white;
+        padding:5px;
+    }
+    input {
+        background: transparent;
+        width:260px;
+        border:0;
+        &::placeholder {
+            color:$white;
+        }
+    }
+    #search-icon {
+        fill: $white;
+      height: 15px;
+      width: 15px;
+      &:hover {
+          cursor: pointer;
+      }
+    }
+}
+#main-menu {
+    width:300px;
+    height:100%;
+    z-index:1;
+    position: fixed;
+    top: 0px;
+    right:-340px;
+    transition: 2s;
+    ul {
+        padding-left:0;
+        list-style: none;
+        li {
+            line-height: 2;
+            font-size:1.25em;
+
+        }
+    }
+    &.expanded {
+        right:0;
+    }
+}
+.menu-bold {
+    font-weight: bold;
+}
+.menu-toggle {
+    font-size:32px;
+}
+.hide {
+    display:none;
+}
+.menu-toggle {
+    cursor: pointer;
+}

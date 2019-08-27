@@ -1,0 +1,434 @@
+@font-face {
+  font-family: 'Proxima Nova-Black';
+  src: url("../fonts/Proxima Nova/Proxima Nova-Black.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Proxima Nova';
+  src: url("../fonts/Proxima Nova/Proxima Nova-Bold.otf") format("opentype");
+  font-weight: bold;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Proxima Nova';
+  src: url("../fonts/Proxima Nova/Proxima Nova-BoldIt.otf") format("opentype");
+  font-weight: bold;
+  font-style: italic; }
+
+@font-face {
+  font-family: 'Proxima Nova';
+  src: url("../fonts/Proxima Nova/Proxima Nova-Regular.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Proxima Nova';
+  src: url("../fonts/Proxima Nova/Proxima Nova-RegItalic.otf") format("opentype");
+  font-weight: normal;
+  font-style: italic; }
+
+@font-face {
+  font-family: 'Proxima Nova-Condensed';
+  src: url("../fonts/Proxima Nova/Proxima Nova Cond-Regular.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Proxima Nova-Condensed';
+  src: url("../fonts/Proxima Nova/Proxima Nova Cond-RegularIt.otf") format("opentype");
+  font-weight: normal;
+  font-style: italic; }
+
+@font-face {
+  font-family: 'Proxima Nova-Condensed';
+  src: url("../fonts/Proxima Nova/Proxima Nova Cond-Semibold.otf") format("opentype");
+  font-weight: bold;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Proxima Nova-Condensed';
+  src: url("../fonts/Proxima Nova/Proxima Nova Cond-SemiboldIt.otf") format("opentype");
+  font-weight: bold;
+  font-style: italic; }
+
+@font-face {
+  font-family: 'Proxima Nova-Condensed-Light';
+  src: url("../fonts/Proxima Nova/Proxima Nova Cond-Light.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Proxima Nova-Condensed-Light';
+  src: url("../fonts/Proxima Nova/Proxima Nova Cond-LightIt.otf") format("opentype");
+  font-weight: normal;
+  font-style: italic; }
+
+@font-face {
+  font-family: 'Proxima Nova-Condensed-Light';
+  src: url("../fonts/Proxima Nova/Proxima Nova Cond-LightIt.otf") format("opentype");
+  font-weight: normal;
+  font-style: italic; }
+
+@font-face {
+  font-family: 'Proxima Nova-Light';
+  src: url("../fonts/Proxima Nova/Proxima Nova-Light.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Proxima Nova-Extrabold';
+  src: url("../fonts/Proxima Nova/Proxima Nova-Extrabold.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Proxima Nova-Semibold';
+  src: url("../fonts/Proxima Nova/Proxima Nova-Semibold.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Proxima Nova-Semibold';
+  src: url("../fonts/Proxima Nova/Proxima Nova-SemiboldItalic.otf") format("opentype");
+  font-weight: normal;
+  font-style: italic; }
+
+html {
+  font-size: 16px;
+  font-family: 'Proxima Nova';
+  line-height: 1.2; }
+
+@media only screen and (min-width: 992px) {
+  .plus-size {
+    font-size: 1.5em;
+    line-height: 1.75em; } }
+
+img {
+  max-width: 100%; }
+
+main {
+  color: #222; }
+
+header, footer {
+  color: white; }
+
+.float-right {
+  float: right; }
+
+.float-left {
+  float: left; }
+
+.margin-10h {
+  margin-right: 10px;
+  margin-left: 10px; }
+
+.margin-10v {
+  margin-top: 10px;
+  margin-bottom: 10px; }
+
+.margin-10 {
+  margin: 10px; }
+
+.margin-20h {
+  margin-right: 20px;
+  margin-left: 20px; }
+
+.margin-20v {
+  margin-top: 20px;
+  margin-bottom: 20px; }
+
+.margin-20 {
+  margin: 20px; }
+
+.margin-30h {
+  margin-right: 30px;
+  margin-left: 30px; }
+
+.margin-30v {
+  margin-top: 30px;
+  margin-bottom: 30px; }
+
+.margin-30 {
+  margin: 30px; }
+
+.margin-40h {
+  margin-left: 40px;
+  margin-right: 40px; }
+
+.margin-40v {
+  margin-top: 40px;
+  margin-bottom: 40px; }
+
+.margin-40 {
+  margin: 40px; }
+
+.padding-10h {
+  padding-right: 10px;
+  padding-left: 10px; }
+
+.padding-10v {
+  padding-top: 10px;
+  padding-bottom: 10px; }
+
+.padding-10 {
+  padding: 10px; }
+
+.padding-20h {
+  padding-right: 20px;
+  padding-left: 20px; }
+
+.padding-20v {
+  padding-top: 20px;
+  padding-bottom: 20px; }
+
+.padding-20 {
+  padding: 10px; }
+  @media only screen and (min-width: 480px) {
+    .padding-20 {
+      padding: 20px; } }
+
+.padding-30h {
+  padding-right: 30px;
+  padding-left: 30px; }
+
+.padding-30v {
+  padding-top: 30px;
+  padding-bottom: 30px; }
+
+.padding-30 {
+  padding: 20px; }
+  @media only screen and (min-width: 480px) {
+    .padding-30 {
+      padding: 30px; } }
+
+.padding-40h {
+  padding-right: 40px;
+  padding-left: 40px; }
+
+.padding-40v {
+  padding-top: 40px;
+  padding-bottom: 40px; }
+
+.padding-40 {
+  padding: 30px; }
+  @media only screen and (min-width: 480px) {
+    .padding-40 {
+      padding: 40px; } }
+
+.container {
+  margin-left: 15px;
+  margin-right: 15px; }
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column; }
+  @media only screen and (min-width: 480px) {
+    .row {
+      flex-direction: row; } }
+  .row.stay-in-row {
+    flex-direction: row !important; }
+
+@media only screen and (min-width: 480px) {
+  .rev {
+    flex-direction: row-reverse; } }
+
+.col {
+  flex: 1 1 0; }
+
+.col-2times {
+  flex: 2 0 0; }
+
+.col-1time {
+  flex: 1 0 0; }
+
+html, body {
+  height: 100%;
+  margin: 0; }
+
+footer .col {
+  margin-top: 25px;
+  text-align: center; }
+  @media only screen and (min-width: 768px) {
+    footer .col {
+      margin-top: 0;
+      text-align: left; } }
+
+header {
+  background: url("/assets/inanc-avadit-571215-unsplash (1).jpg");
+  background-size: cover;
+  overflow: auto;
+  width: 100%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
+  position: relative; }
+
+a {
+  text-decoration: none;
+  transition: 0.3s;
+  color: white; }
+  a:hover {
+    text-decoration: underline; }
+
+footer {
+  background-color: #6638b6; }
+
+figure {
+  margin: 0 !important; }
+
+.btn {
+  border: 2px solid white;
+  text-align: center;
+  padding: 15px 30px;
+  display: inline-block;
+  font-size: 12pt !important;
+  font-family: 'Proxima Nova'; }
+
+.purple {
+  background-color: #6638b6;
+  color: white; }
+
+p {
+  text-align: center; }
+  @media only screen and (min-width: 768px) {
+    p {
+      text-align: left; } }
+
+.center-col {
+  max-width: 1150px;
+  margin: 0 auto;
+  text-align: center; }
+
+.icon_box {
+  position: relative;
+  width: 100%;
+  margin-top: 50px; }
+  @media only screen and (min-width: 768px) {
+    .icon_box {
+      margin-top: 30px; } }
+  .icon_box .icon_container {
+    position: absolute;
+    top: -40px;
+    left: 50%;
+    margin-left: -37px;
+    border-radius: 50%;
+    background: #6638b6;
+    padding: 20px; }
+    .icon_box .icon_container .icon {
+      min-height: 100%;
+      min-width: 100%; }
+
+.center_text {
+  text-align: center; }
+  @media only screen and (min-width: 768px) {
+    .center_text {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      text-align: left; } }
+
+.center_text_item {
+  width: 90%;
+  margin: 0; }
+  @media only screen and (min-width: 768px) {
+    .center_text_item {
+      width: 60%;
+      margin: 0 auto; } }
+
+#intro_text {
+  font-size: 2em;
+  margin-top: 10%;
+  margin-bottom: 10%; }
+  @media only screen and (min-width: 768px) {
+    #intro_text {
+      max-width: 60%; } }
+  @media only screen and (min-width: 992px) {
+    #intro_text {
+      max-width: 50%; } }
+
+#grad {
+  background-image: linear-gradient(transparent, #222);
+  text-align: center;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  margin: 0;
+  margin-left: -30px; }
+  #grad #down_link {
+    font-size: 1em !important; }
+    @media only screen and (min-width: 992px) {
+      #grad #down_link {
+        font-size: 1.5em !important; } }
+    #grad #down_link i {
+      border-radius: 50%;
+      padding: 2px 5px;
+      border: 2px solid white;
+      margin-bottom: 10px; }
+      @media only screen and (min-width: 992px) {
+        #grad #down_link i {
+          padding: 5px 10px !important; } }
+  @media only screen and (min-width: 480px) {
+    #grad {
+      margin-left: -40px; } }
+
+#social_media {
+  display: block;
+  margin-bottom: 15px; }
+  #social_media img {
+    width: 25px; }
+    #social_media img:last-child {
+      margin-left: 10px; }
+  @media only screen and (min-width: 768px) {
+    #social_media {
+      display: flex; } }
+
+.search-form .search-container {
+  border: 1px solid white;
+  padding: 5px; }
+
+.search-form input {
+  background: transparent;
+  width: 260px;
+  border: 0; }
+  .search-form input::placeholder {
+    color: white; }
+
+.search-form #search-icon {
+  fill: white;
+  height: 15px;
+  width: 15px; }
+  .search-form #search-icon:hover {
+    cursor: pointer; }
+
+#main-menu {
+  width: 300px;
+  height: 100%;
+  z-index: 1;
+  position: fixed;
+  top: 0px;
+  right: -340px;
+  transition: 2s; }
+  #main-menu ul {
+    padding-left: 0;
+    list-style: none; }
+    #main-menu ul li {
+      line-height: 2;
+      font-size: 1.25em; }
+  #main-menu.expanded {
+    right: 0; }
+
+.menu-bold {
+  font-weight: bold; }
+
+.menu-toggle {
+  font-size: 32px; }
+
+.hide {
+  display: none; }
+
+.menu-toggle {
+  cursor: pointer; }

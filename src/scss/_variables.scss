@@ -1,0 +1,27 @@
+
+//Color
+$purple: #6638b6;
+$white: white;
+$black: #222;
+$grey: #888;
+
+
+
+//Basic stuff
+img {
+    max-width:100%;
+}
+
+main {
+    color: $black;
+}
+
+header, footer {
+    color:$white;
+}
+.float-right {
+    float: right;
+}
+.float-left {
+    float: left;
+}

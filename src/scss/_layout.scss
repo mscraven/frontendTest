@@ -1,0 +1,145 @@
+$sm : '480';
+$md : '768';
+$lg : '992';
+$xl : '1200';
+
+.margin-10h {
+    margin-right:10px;
+    margin-left:10px;
+}
+.margin-10v {
+    margin-top:10px;
+    margin-bottom:10px;
+}
+.margin-10 {
+    margin:10px;
+}
+.margin-20h {
+    margin-right:20px;
+    margin-left:20px;
+}
+.margin-20v {
+    margin-top:20px;
+    margin-bottom:20px;
+}
+.margin-20 {
+    margin:20px;
+}
+.margin-30h {
+    margin-right:30px;
+    margin-left:30px;
+}
+.margin-30v {
+    margin-top:30px;
+    margin-bottom:30px;
+}
+.margin-30 {
+    margin:30px;
+}
+.margin-40h {
+    margin-left:40px;
+    margin-right:40px;
+}
+.margin-40v {
+    margin-top:40px;
+    margin-bottom:40px;
+}
+.margin-40 {
+    margin:40px;
+}
+.padding-10h {
+    padding-right:10px;
+    padding-left:10px;
+}
+.padding-10v {
+    padding-top:10px;
+    padding-bottom:10px;
+}
+.padding-10 {
+    padding:10px;
+}
+.padding-20h {
+    padding-right:20px;
+    padding-left:20px;
+}
+.padding-20v {
+    padding-top:20px;
+    padding-bottom:20px;
+}
+.padding-20 {
+    padding:10px;
+    @include respond-to($sm) {
+        padding:20px;
+    }
+}
+.padding-30h {
+    padding-right:30px;
+    padding-left:30px;
+}
+.padding-30v {
+    padding-top:30px;
+    padding-bottom:30px;
+}
+.padding-30 {
+    padding:20px;
+    @include respond-to($sm) {
+        padding:30px;
+    }
+}
+.padding-40h {
+    padding-right:40px;
+    padding-left:40px;
+}
+.padding-40v {
+    padding-top:40px;
+    padding-bottom:40px;
+}
+.padding-40 {
+    padding:30px;
+    @include respond-to($sm) {
+        padding:40px;
+    }
+}
+.container {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.row {
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    @include respond-to($sm) {
+        flex-direction: row;
+    }
+    &.stay-in-row {
+        flex-direction: row !important;
+    }
+}
+
+.rev {
+    @include respond-to($sm) {
+        flex-direction: row-reverse;
+    }
+}
+.col {
+    flex:1 1 0;
+}
+.col-2times {
+    flex:2 0 0;
+}
+.col-1time {
+    flex:1 0 0;
+}
+html,body {
+    height:100%;
+    margin:0;
+}
+footer .col {
+    margin-top: 25px;
+    text-align: center;
+    @include respond-to($md) {
+        margin-top: 0;
+        text-align: left;
+    }
+}
+
